@@ -39,7 +39,7 @@ table {
 
 }
 
-.mainbody1 {
+#mainbody1 {
     height: calc(100vh - 70px);
     width: 100%;
 
@@ -47,7 +47,7 @@ table {
     display: table;
 }
 
-.mainbody1-board {
+#mainbody1-board {
     background-color: white;
 
     height: 600px;
@@ -59,7 +59,7 @@ table {
     border: solid black 2px;
 }
 
-.mainbody1-buttons {
+#mainbody1-buttons {
     height: 100px;
     width: 50%;
 
@@ -73,7 +73,7 @@ table {
     table-layout: fixed;
 }
 
-.mainbody1-buttons span {
+#mainbody1-buttons span {
     display: table-cell;
     text-align: center;
 

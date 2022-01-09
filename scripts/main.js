@@ -1,11 +1,10 @@
-let container = document.getElementById("board");
-let row = container.insertRow(0);
+let container = document.getElementById("grid");
 
 function initializeGrid(numPixels) {
 
     for (i = 0 ; i < numPixels ; i++) {
         for (j = 0 ; j < numPixels ; j++) {
-            container.appendChild(document.createElement("td"));
+            grid.appendChild(document.createElement("div"));
         }
 
     }
