@@ -19,11 +19,6 @@ h1 {
     display: table-cell;
 }
 
-h2 {
-
-
-}
-
 header {
     height: 70px;
     width: 100%;
@@ -33,10 +28,18 @@ header {
     display: table;
 }
 
-table {
-    height: 100%;
-    width: 100%;
+.layout {
+    height: 41px;
+    width: 41px;
 
+    float: left;
+    border: solid black 2px;
+
+    mouse
+}
+
+.layout:hover {
+    background-color: red;
 }
 
 #mainbody1 {
@@ -50,11 +53,11 @@ table {
 #mainbody1-board {
     background-color: white;
 
-    height: 600px;
-    width: 600px;
+    height: 720px;
+    width: 720px;
 
     margin: 0 auto;
-    margin-top: 5%;
+    margin-top: 2%;
 
     border: solid black 2px;
 }
