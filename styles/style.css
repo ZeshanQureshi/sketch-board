@@ -1,3 +1,7 @@
+:root {
+    --colourSelect:var(--colourSelect)
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -28,18 +32,27 @@ header {
     display: table;
 }
 
+button:hover {
+    color: red;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
 .layout {
-    height: 41px;
-    width: 41px;
+    height: 45px;
+    width: 45px;
 
     float: left;
-    border: solid black 2px;
+    /* border: solid black 2px; */
+}
 
-    mouse
+input {
+    cursor: pointer;
 }
 
 .layout:hover {
-    background-color: red;
+    background-color: currentColor;
 }
 
 #mainbody1 {
@@ -60,6 +73,8 @@ header {
     margin-top: 2%;
 
     border: solid black 2px;
+
+    cursor: crosshair;
 }
 
 #mainbody1-buttons {

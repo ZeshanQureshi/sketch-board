@@ -1,5 +1,7 @@
 const container = document.getElementById("grid");
 
+let colourPick = document.getElementById("colourSelect").value;
+
 function initializeGrid(numPixels) {
 
     for (i = 0 ; i < numPixels ; i++) {
