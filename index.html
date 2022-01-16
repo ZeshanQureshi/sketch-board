@@ -9,7 +9,7 @@
     <title>Sketch Board</title>
 </head>
 
-<body onLoad = "initializeGrid(36)">
+<body onLoad = "initializeGrid(8)">
     <header>
         <h1>Sketch Board</h1>
     </header>
@@ -20,9 +20,9 @@
         </div>
 
         <div id = "mainbody1-buttons">
-            <span><button>Pixel Size</button></span>
-            <span><p>Colour <br>  <input type="color" id = "colourSelect"></p></span>
-            <span><button onclick="clearBoard(36)">Clear Board</button></span>
+            <span><p>Size<br><input type="range" id = "sizeSelect" class = "slider" min = "8" max = "56" value = "8"></p></span>
+            <span><p>Colour<br><input type="color" id = "colourSelect" value = "#58E2E4"></p></span>
+            <span><button id = "clearSelect">Clear Board</button></span>
         </div>
     </div>
 </body>
